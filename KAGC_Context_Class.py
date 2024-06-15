@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 # KAGC Stratiraphic Analysis DU Context class V3
 # Christopher Mavromatis 2023
 
