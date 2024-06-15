@@ -1,4 +1,5 @@
-# KAGC Marker Artifacts 2020
+# KAGC Marker Artifacts V2
+# Chris Mavromatis 2023
 """
 This moduel contains lists of KAGC artifacts corresponding to Marker Groups 1, 2, and 3.  See KAGC final publication Chapter 3 Methodology for a full description of these artifact groupings. 
 
