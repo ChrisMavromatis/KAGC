@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 # KAGC Stratiraphic Functions v2
 # Chris Mavromatis 2023
 
