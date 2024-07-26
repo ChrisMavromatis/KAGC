@@ -5,5 +5,5 @@
 # Works Cited
 
 # Links
-[Project webpage](https://www.gla.ac.uk/schools/humanities/research/archaeologyresearch/currentresearch/kourion/)
-[Publication](https://www.gla.ac.uk/schools/humanities/research/archaeologyresearch/currentresearch/kourion/)
+* [Project webpage](https://www.gla.ac.uk/schools/humanities/research/archaeologyresearch/currentresearch/kourion/)
+* [Publication](https://www.gla.ac.uk/schools/humanities/research/archaeologyresearch/currentresearch/kourion/)
