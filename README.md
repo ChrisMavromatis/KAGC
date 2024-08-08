@@ -6,4 +6,4 @@
 
 # Links
 * [Project webpage](https://www.gla.ac.uk/schools/humanities/research/archaeologyresearch/currentresearch/kourion/)
-* [Publication](https://www.gla.ac.uk/schools/humanities/research/archaeologyresearch/currentresearch/kourion/)
+* [Publication](https://whitelevy.fas.harvard.edu/publications/city-and-cemetery-excavations-kourion%E2%80%99s-amathous-gate-cemetery-cyprusthe)
