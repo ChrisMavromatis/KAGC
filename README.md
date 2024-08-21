@@ -8,23 +8,23 @@ In order to get the most out of what was available, the project used  a two-part
 ## 
 
 # Works Cited
-Allison, P. (2008). Dealing with Legacy Data - an introduction. Internet archaeology, (24). [Online](ttps://doi.org/10.11141/ia.24.8)
+Allison, P. (2008). Dealing with Legacy Data - an introduction. Internet archaeology, (24). [https://doi.org/10.11141/ia.24.8](https://doi.org/10.11141/ia.24.8)
 
-Broman, K. W. and Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72 (1), Taylor & Francis., pp.2-10. [Online](https://doi.org/10.1080/00031305.2017.1375989)
+Broman, K. W. and Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72 (1), Taylor & Francis., pp.2-10. [https://doi.org/10.1080/00031305.2017.1375989](https://doi.org/10.1080/00031305.2017.1375989)
 
-Ellis, S. E. and Leek, J. T. (2018). How to share data for collaboration. The American Statistician, 72 (1), Taylor & Francis., pp.53-57. [Online](https://doi.org/10.1080/00031305.2017.1375987)
+Ellis, S. E. and Leek, J. T. (2018). How to share data for collaboration. The American Statistician, 72 (1), Taylor & Francis., pp.53-57. [https://doi.org/10.1080/00031305.2017.1375987](https://doi.org/10.1080/00031305.2017.1375987)
 
 Kluyver, T. et al. (2016). Jupyter Notebooks – a publishing format for reproducible computational workflows. In: Loizides, F. and Schmidt, B. (Eds). 2016. IOS Press. pp.87–90.
 
-R Core Team. (2021). R: A language and environment for statistical computing. Vienna, Austria : R Foundation for Statistical Computing. [Online](https://www.R-project.org/)
+R Core Team. (2021). R: A language and environment for statistical computing. Vienna, Austria : R Foundation for Statistical Computing. [https://www.R-project.org/](https://www.R-project.org/)
 
 Van Rossum, G. and Drake, F. L. (2022). Python 3.10 reference manual. Scotts Valley, CA : CreateSpace.
 
 Wickham, H. (2014). Tidy Data. Journal of statistical software, 59 (10), pp.1–23.
 
-Wickham, H. (2016). Data analysis. In: Ggplot2: Elegant graphics for data analysis. Cham : Springer International Publishing. pp.189–201. [](https://doi.org/10.1007/978-3-319-24277-4_9)
+Wickham, H. (2016). Data analysis. In: Ggplot2: Elegant graphics for data analysis. Cham : Springer International Publishing. pp.189–201. [https://doi.org/10.1007/978-3-319-24277-4_9](https://doi.org/10.1007/978-3-319-24277-4_9)
 
-Wickham, H. et al. (2019). Welcome to the Tidyverse. Journal of Open Source Software, 4 (43), p.1686. [Online](https://doi.org/10.21105/joss.01686)
+Wickham, H. et al. (2019). Welcome to the Tidyverse. Journal of Open Source Software, 4 (43), p.1686. [https://doi.org/10.21105/joss.01686](https://doi.org/10.21105/joss.01686)
 
 # Links
 * [Project webpage](https://www.gla.ac.uk/schools/humanities/research/archaeologyresearch/currentresearch/kourion/)
