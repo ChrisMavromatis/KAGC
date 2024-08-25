@@ -7,7 +7,13 @@ In order to get the most out of what was available, the project used  a two-part
 
 ## Alpha Phase Data-Wrangling
 
+[](/Images/AlphaPhaseDataWrangling.png)
+
 ## Beta Phase Data-Wrangling
+
+[](/Images/BetaPhaseDataWrangling.png)
+
+[](SplittingVariables.png)
 
 # Works Cited
 Allison, P. (2008). Dealing with Legacy Data - an introduction. Internet archaeology, (24). [https://doi.org/10.11141/ia.24.8](https://doi.org/10.11141/ia.24.8)
