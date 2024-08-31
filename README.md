@@ -15,20 +15,15 @@ The first part of this strategy, or the Alpha phase, is centered on what we can 
 
 The second part of our strategy, the Beta phase, was designed to help us address our research questions more efficiently.  One of the project's goals for the stratigraphic analysis was to integrate the discussion of the stratigraphy with relevant information on features, spatial organization, material culture, and human skeletal remains.  We were also interested in how Kourion's inhabitants used the different areas of the  cemetery  over time.  During the Beta phase, the project's research goals directly influenced the data-wrangling process. Ultimately, this required re-coding,  splitting compound variables, aggregating, and reshaping various aspects of  the Alpha phase  "cleaned" datasets.  The results included  additional indexing,  provenience, and chronological  variables.
 
-<figure>
 ![Aplha Phase Data Wrangling](/Images/AlphaPhaseDataWrangling.png)
-<figcaption>Alpha Phase Data Wrangling</figcaption>
-</figure>
-
 
 ![Beta Phase Data Wrangling](/Images/BetaPhaseDataWrangling.png)
-
 
 ![Split Variables](/Images/SplittingVariables.png)
 
 
 ## Analysis Tools
-
+After establishing the relative sequence in each trench we look for  basic correlations between deposits in each area's trenches. This  process  involved  comparing the deposits and aggregating them into larger units in  terms of their color, compaction, interface properties, inclusions, and assemblage compositions. Our research goals for the stratigraphic analysis also required us to examine individual and aggregated deposits and their assemblages at different spatial resolutions.  We also need a standard way to compare, contrast,  and visualize different aspects of these deposits' assemblages,  especially their chronological distribution.  Given our goals, our approach to stratigraphic interpretation centered on establishing and analyzing deposit assemblage profiles.
 # Requirements
 
 # Usage Instructions
