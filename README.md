@@ -3,15 +3,29 @@ This repository contains the Python modules the Kourion Amathous Gate Cemetery P
 
 # The KAGC Project's approach to working with legacy archaeological datasets
 Most researchers would agree that the reanalysis of legacy data sets has the potential to offer a range of new insights and augment our existing knowledge  (Allison 2008).  Most would also accept that incorporating legacy datasets into a contemporary research framework presents various technical and methodological challenges.  Developing an effective strategy for preparing these datasets for analysis can be daunting.  Arguably, data preparation, or wrangling, is one of the most important aspects of working with legacy and contemporary datasets.  To put it another way,  the more specific a project's research questions are, the more nuanced the data-wrangling and tool development are likely to be. 
-In order to get the most out of what was available, the project used  a two-part data-wrangling strategy for preparing its digital data for analysis. In both phases, we extensively used "Tidy Data" principles as a guide (Broman et al 2018; Ellis & Leek 2018; Wickham 2014; Wickham 2016; Wickham 2019). The "Tidy Data" principles are reasonably straightforward.  They focus on  making data internally consistent, more manageable, and increasing comprehensible when sharing with colleagues.
+In order to get the most out of what was available, the project used  a two-part data-wrangling strategy for preparing its digital data for analysis. We extensively used "Tidy Data" principles as a guide (Broman et al 2018; Ellis & Leek 2018; Wickham 2014; Wickham 2016; Wickham 2019). The "Tidy Data" principles are reasonably straightforward.  They focus on  making data internally consistent, more manageable, and comprehensible when sharing with colleagues.
 
 ## Data-Wrangling
+The first part of this strategy, or the Alpha phase, is centered on what we can best describe as the generic cleaning of the specialists' databases.  This process primarily focused  on
+
+* correcting spelling issues
+* making  sure that  variable code abbreviations were consistent
+* removing excess leading and trailing white space from each entry
+* identifying compound variables
+
+The second part of our strategy, the Beta phase, was designed to help us address our research questions more efficiently.  One of the project's goals for the stratigraphic analysis was to integrate the discussion of the stratigraphy with relevant information on features, spatial organization, material culture, and human skeletal remains.  We were also interested in how Kourion's inhabitants used the different areas of the  cemetery  over time.  During the Beta phase, the project's research goals directly influenced the data-wrangling process. Ultimately, this required us to  re-coding,  splitting compound variables, aggregating, and reshaping various aspects of  the Alpha phase  "cleaned" datasets.  The results included  additional indexing,  provenience, and chronological  variables.
 
 ![Aplha Phase Data Wrangling](/Images/AlphaPhaseDataWrangling.png)
 
 ![Beta Phase Data Wrangling](/Images/BetaPhaseDataWrangling.png)
 
 ![Split Variables](/Images/SplittingVariables.png)
+
+## Analysis Tools
+
+# Requirements
+
+# Usage Instructions
 
 # Works Cited
 Allison, P. (2008). Dealing with Legacy Data - an introduction. Internet archaeology, (24). [https://doi.org/10.11141/ia.24.8](https://doi.org/10.11141/ia.24.8)
