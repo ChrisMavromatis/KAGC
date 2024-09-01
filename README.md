@@ -6,7 +6,7 @@ Most researchers would agree that the reanalysis of legacy data sets has the pot
 In order to get the most out of what was available, the project used  a two-part data-wrangling strategy for preparing its digital data for analysis. We extensively used "Tidy Data" principles as a guide (Broman et al 2018; Ellis & Leek 2018; Wickham 2014; Wickham 2016; Wickham 2019). The "Tidy Data" principles are reasonably straightforward.  They focus on  making data internally consistent, more manageable, and comprehensible when sharing with colleagues.
 
 ## Data-Wrangling
-The first part of this strategy, or the Alpha phase [[Aplha Phase Data Wrangling]], is centered on what we can best describe as the generic cleaning of the specialists' databases.  This process primarily focused  on
+The first part of this strategy, or the Alpha phase [Apha Phase](#Alpha-Phase-Data-Wrangling), is centered on what we can best describe as the generic cleaning of the specialists' databases.  This process primarily focused  on
 
 * correcting spelling issues
 * making  sure that  variable code abbreviations were consistent
