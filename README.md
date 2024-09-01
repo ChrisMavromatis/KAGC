@@ -75,8 +75,7 @@ The Python class and functions we created for the project used
 | PL | preserved length | float | 30 |
 | PW | preserved width | float | 30 |
 | description | item description | text | variable |
-| DU | depositional unit | text | 30 |
-| MPDate | median production date | float | 30 |
+
 
 
 # Works Cited
