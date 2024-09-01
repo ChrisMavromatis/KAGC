@@ -48,35 +48,37 @@ The Python class and functions we created for the project used
 
 
 # Usage Instructions
-| Field   Name | Field   Description (inc. units of   measurements, description of codes, etc. used within each field).                                                                       | Field Data Type | Field Length |   |
-|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|--------------|---|
-|              |                                                                                                                                                                              |                 |              |   |
-|     area     | KAGC excavation area                                                                                                                                                         |       text      |      30      |   |
-|     name     | trench or tomb name                                                                                                                                                          |       text      |      30      |   |
-|     tb.tr    | trench or tomb number                                                                                                                                                        |       text      |      30      |   |
-|      cxn     | context number                                                                                                                                                               |       text      |      30      |   |
-|     mcls     | material class type. : lmp:   lamp. gls: glass. num: coin. cer: non-fine ware ceramics. stn: stone. mtl:   non coin metal. amp: amphora. plst: plaster/stucco. fw: fine ware |       text      |      30      |   |
-|    number    | registration number                                                                                                                                                          |       text      |      30      |   |
-|     diag     | diagnostic item type                                                                                                                                                         |       text      |      30      |   |
-|      Cat     | catalog number                                                                                                                                                               |       text      |      30      |   |
-|     date1    | AD, BC, AD-BC                                                                                                                                                                |       text      |      30      |   |
-|     date2    | concatenation of date1, date3,   and date4                                                                                                                                   |       text      |      30      |   |
-|     date3    | opening production date                                                                                                                                                      |     integer     |      30      |   |
-|     date4    | closing production date                                                                                                                                                      |     integer     |      30      |   |
-|     type1    | item type                                                                                                                                                                    |       text      |      30      |   |
-|     type2    | item part                                                                                                                                                                    |       text      |      30      |   |
-|     type3    | gross functional class                                                                                                                                                       |       text      |      30      |   |
-|     type4    | method of manufacture                                                                                                                                                        |       text      |      30      |   |
-|     type5    | item color(s)                                                                                                                                                                |       text      |      30      |   |
-|     type6    | item material or fabric   description                                                                                                                                        |       text      |      30      |   |
-|     cond     | condition                                                                                                                                                                    |       text      |      30      |   |
-|     burnt    | evidence for burning                                                                                                                                                         |     boolean     |       1      |   |
-|     join     | join with other item                                                                                                                                                         |     boolean     |       1      |   |
-|      PL      | preserved length                                                                                                                                                             |      float      |      30      |   |
-|      PW      | preserved width                                                                                                                                                              |      float      |      30      |   |
-|  description | item description                                                                                                                                                             |       text      |   variable   |   |
-|      DU      | depositional unit                                                                                                                                                            |       text      |      30      |   |
-|    MPDate    | median production date                                                                                                                                                       |      float      |      30      |   |
+
+| Field   Name | Field   Description | Field Data Type | Field Length |
+|---|---|---|---|
+| area | KAGC excavation area | text | 30 |
+| name | trench or tomb name | text | 30 |
+| tb.tr | trench or tomb number | text | 30 |
+| cxn | context number | text | 30 |
+| mcls | material class type. : lmp:   lamp. gls: glass. num: coin. cer: non-fine ware ceramics. stn: stone. mtl:   non coin metal. amp: amphora. plst: plaster/stucco. fw: fine ware | text | 30 |
+| number | registration number | text | 30 |
+| diag | diagnostic item type | text | 30 |
+| Cat | catalog number | text | 30 |
+| date1 | AD, BC, AD-BC | text | 30 |
+| date2 | concatenation of date1, date3,   and date4 | text | 30 |
+| date3 | opening production date | integer | 30 |
+| date4 | closing production date | integer | 30 |
+| type1 | item type | text | 30 |
+| type2 | item part | text | 30 |
+| type3 | gross functional class | text | 30 |
+| type4 | method of manufacture | text | 30 |
+| type5 | item color(s) | text | 30 |
+| type6 | item material or fabric   description | text | 30 |
+| cond | condition | text | 30 |
+| burnt | evidence for burning | boolean | 1 |
+| join | join with other item | boolean | 1 |
+| PL | preserved length | float | 30 |
+| PW | preserved width | float | 30 |
+| description | item description | text | variable |
+| DU | depositional unit | text | 30 |
+| MPDate | median production date | float | 30 |
+
+
 # Works Cited
 Allison, P. (2008). Dealing with Legacy Data - an introduction. Internet archaeology, (24). [https://doi.org/10.11141/ia.24.8](https://doi.org/10.11141/ia.24.8)
 
