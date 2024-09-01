@@ -27,11 +27,14 @@ After establishing the relative sequence in each trench we look for  basic corre
 
 # Software and Requirements
 The Python class and functions we created for the project used
+
+*
     * Python (3.10.10), Ipython (8.12.0),
         * Python Distibution: Anaconda 3
     * Visual Studio Code (1.79.2)
     
 ## Python Libraries
+*
     * scipy: 1.10.0
     * matplotlib: 3.7.1
     * watermark: 2.4.3
