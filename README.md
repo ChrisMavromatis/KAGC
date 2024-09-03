@@ -28,7 +28,7 @@ After establishing the relative sequence in each trench we look for  basic corre
 The Context-DU class' methods manipulate several core variables from the project database to generate additional data for the profile.  These actions range from simple database and spreadsheet filtering operations to more complex ones that involve linking several queries, filters, and mathematical operations together.  
 
 * cdu: All artifacts from the context or Depositional Unit (DU)
-* MCLS_Grps: Splits the context of  DU's assemblage into sub-assemblages based on material class
+* MCLS_Grps: Splits the context or  DU's assemblage into sub-assemblages based on material class
 * MCLS_TPQS: TPQ items for each material class from A DU's assemblage
 * CC_TPQS: The TPQ item for each of a given DU's Contributing Contexts (CCs)
 * UniqueForms: Unique forms present in the DU's assemblage
