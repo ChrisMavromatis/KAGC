@@ -25,7 +25,7 @@ The second part of our strategy, the Beta phase, was designed to help us address
 ## Analysis Tools
 After establishing the relative sequence in each trench we look for  basic correlations between deposits in each area's trenches. This  process  involved  comparing the deposits and aggregating them into larger units in  terms of their color, compaction, interface properties, inclusions, and assemblage compositions. Our research goals for the stratigraphic analysis also required us to examine individual and aggregated deposits and their assemblages at different spatial resolutions.  We also need a standard way to compare, contrast,  and visualize different aspects of these deposits' assemblages,  especially their chronological distribution.  Given our goals, our approach to stratigraphic interpretation centered on establishing and analyzing deposit assemblage profiles.
 
-![Context-DU Class](/Images/)
+![Context-DU Class](/Images/Context_DU_Class.png)
 
 # Software and Requirements
 The Python class and functions we created for the project used
