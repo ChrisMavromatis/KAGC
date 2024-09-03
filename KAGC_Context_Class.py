@@ -66,7 +66,7 @@ class Context():
 
     The Context class contains several main methods:
         * cdu: All artifacts from the context or Depositional Unit (DU)
-        * MCLS_Grps: Splits the context of  DU's assemblage into sub-assemblages based on material class
+        * MCLS_Grps: Splits the context or  DU's assemblage into sub-assemblages based on material class
         * MCLS_TPQS: TPQ items for each material class from A DU's assemblage
         * CC_TPQS: The TPQ item for each of a given DU's Contributing Contexts (CCs)
         * UniqueForms: Unique forms present in the DU's assemblage
