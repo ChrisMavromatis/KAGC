@@ -111,7 +111,7 @@ The table below describes the naming convention for the variables used in the pr
 ## Usage Examples
 
 ```Python
-#Context-DU Class instance
+#Context-DU Class instance for DU B503
 b503 =df.pipe(KAGC_FUN.DU_Select, KAGC_DUS.B503, "B503").pipe(co.Context, res= -50)
 ```
 ```
@@ -166,11 +166,10 @@ b503.MCLS_TPQS()
 ╘══════╧══════╧════════╧════════╧════════╧═══════╧═════════════════════════╧════════════════╧════════════════════╧═════════╧═════════╧═════════╧═════════╧══════════╧════════╧══════════╛
 ```
 
-```
+```Python
 #Plotting production spans for the latest artifact types from DU B503
 KAGC_FUN.DU_MCLS_TPQ_Plt(b503, save_plot="N", out_ti=" ", fext=" ", start= -500, stop=1000)
 ```
-
 ![]()
 
 # Works Cited
