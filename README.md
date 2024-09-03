@@ -115,7 +115,7 @@ The table below describes the naming convention for the variables used in the pr
 b503 =df.pipe(KAGC_FUN.DU_Select, KAGC_DUS.B503, "B503").pipe(co.Context, res= -50)
 ```
 
-```
+```Python
 b503.MCLS_TPQS()
 
 |      | DU   | name   | cxn    | mcls   | Cat   | diag                    | type1          | type2              | date1   |   date3 |   date4 |   Dspan |   MPDate |   EAAD |   EAAD-M |
