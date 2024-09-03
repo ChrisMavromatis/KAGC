@@ -170,7 +170,7 @@ b503.MCLS_TPQS()
 #Plotting production spans for the latest artifact types from DU B503
 KAGC_FUN.DU_MCLS_TPQ_Plt(b503, save_plot="N", out_ti=" ", fext=" ", start= -500, stop=1000)
 ```
-![]()
+![Production Span Graph](/Images/ProductionSpanGraph.png)
 
 # Works Cited
 Allison, P. (2008). Dealing with Legacy Data - an introduction. Internet archaeology, (24). [https://doi.org/10.11141/ia.24.8](https://doi.org/10.11141/ia.24.8)
