@@ -23,7 +23,36 @@ The second part of our strategy, the Beta phase, was designed to help us address
 
 
 ## Analysis Tools
-After establishing the relative sequence in each trench we look for  basic correlations between deposits in each area's trenches. This  process  involved  comparing the deposits and aggregating them into larger units in  terms of their color, compaction, interface properties, inclusions, and assemblage compositions. Our research goals for the stratigraphic analysis also required us to examine individual and aggregated deposits and their assemblages at different spatial resolutions.  We also need a standard way to compare, contrast,  and visualize different aspects of these deposits' assemblages,  especially their chronological distribution.  Given our goals, our approach to stratigraphic interpretation centered on establishing and analyzing deposit assemblage profiles.
+After establishing the relative sequence in each trench we look for  basic correlations between deposits in each area's trenches. This  process  involved  comparing the deposits and aggregating them into larger units (Depositional Units, DUs) in  terms of their color, compaction, interface properties, inclusions, and assemblage compositions. Our research goals for the stratigraphic analysis also required us to examine individual and aggregated deposits and their assemblages at different spatial resolutions.  We also need a standard way to compare, contrast,  and visualize different aspects of these deposits' assemblages,  especially their chronological distribution.  Given our goals, our approach to stratigraphic interpretation centered on establishing and analyzing deposit assemblage profiles.
+
+The Context-DU class' methods manipulate several core variables from the project database to generate additional data for the profile.  These actions range from simple database and spreadsheet filtering operations to more complex ones that involve linking several queries, filters, and mathematical operations together.  
+
+* cdu: All artifacts from the context or Depositional Unit (DU)
+* MCLS_Grps: Splits the context of  DU's assemblage into sub-assemblages based on material class
+* MCLS_TPQS: TPQ items for each material class from A DU's assemblage
+* CC_TPQS: The TPQ item for each of a given DU's Contributing Contexts (CCs)
+* UniqueForms: Unique forms present in the DU's assemblage
+* ResiualForms: Artifacts earlier than a user-provided cutoff point
+* DUCatNos: Items for which the artifact specialists have assigned a catalog number. The catalog numbers 
+          correspond to those found in the specialist reports presented in Volume 2 of the KAGC publication.
+* DUSmry: Depositional Unit summary that contains 15 variables
+  - DU: Depositional Unit (e.g., B503)
+  - TPQ: Terminus Post Quen date for the DU's assemblage
+  - MMDate: Mean Meadin Date for the DU's assemblage
+  - Span: Chronological range of the DU's assemblage
+  - TForms: Total number of unique forms from the DU
+  - RForms: Residual forms, or the number of forms earlier than 
+    the user-supplied res value in the DU's assemblage
+  - NRForms: Non-Residual forms, or the number of forms later
+    than the user-supplied res value from the DU's assemblage
+  - NRF:RF: The ratio of non-residual forms to residual forms in the DU's assemblage
+  - Dspan > 100: artifacts that have production spans greater than 100 years from the DU's assemblage
+  - Arch: Presence of architectural material in the DU's assemblage
+  - Display: Presence of display items in the DU's assemblage
+  - P.items:  Presence of personal items in the DU's assemblage
+  - P.adorn: Presence of personal adornments in the DU's assemblage
+  - Tool:  Presence of tools in the DU's assemblage
+  - Production: Presence of artifacts associated with production activities
 
 ![Context-DU Class](/Images/Context_DU_Class.png)
 
