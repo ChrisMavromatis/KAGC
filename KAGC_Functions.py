@@ -300,7 +300,7 @@ def SC_DSpanPlt(df, save_plot, out_ti, fext, start, stop):
 def CC_DSpanPlt(df, save_plot, out_ti,  fext, start, stop):
 
     """
-    Plots the date spans of unique material class or Contributing Context. 
+    Plots the date spans of unique material classes or Contributing Context. 
     Dates must be numbers and B.C. dates must be expressed as a negative number e.g.  100 B.C. -> -100. 
 
     Parameters:
@@ -557,7 +557,7 @@ def FC_DatePlt(df, Vlines, save_plot, out_ti,  fext, start, stop):
 # DU Material Class TPQ
 def DU_MCLS_TPQ_Plt(df, save_plot, out_ti,  fext, start, stop):
     """
-    Plots the date spans of unique material class or Contributing Context using the DU class's .MCS_TPQS method.
+    Plots the date spans of unique material classes or Contributing Context using the DU class's .MCS_TPQS method.
     Dates must be numbers and B.C. dates must be expressed as a negative number e.g.  100 B.C. -> -100. 
 
     Parameters:
