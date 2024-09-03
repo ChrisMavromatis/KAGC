@@ -82,32 +82,33 @@ The table below describes the naming convention for the variables used in the pr
 
 | Field   Name | Field   Description | Field Data Type | Field Length | Comment |
 |---|---|---|---|---|
-| area | KAGC excavation area | text | 30 |
-| name | trench or tomb name | text | 30 |
-| tb.tr | trench or tomb number | text | 30 |
-| cxn | context number | text | 30 |
-| mcls | material class type. : lmp:   lamp. gls: glass. num: coin. cer: non-fine ware ceramics. stn: stone. mtl:   non coin metal. amp: amphora. plst: plaster/stucco. fw: fine ware | text | 30 |
-| number | registration number | text | 30 |
-| diag | diagnostic item type | text | 30 |
-| Cat | catalog number | text | 30 |
-| date1 | AD, BC, AD-BC | text | 30 |
-| date2 | concatenation of date1, date3,   and date4 | text | 30 |
-| date3 | opening production date | integer | 30 |
-| date4 | closing production date | integer | 30 |
-| type1 | item type | text | 30 |
-| type2 | item part | text | 30 |
-| type3 | gross functional class | text | 30 |
-| type4 | method of manufacture | text | 30 |
-| type5 | item color(s) | text | 30 |
-| type6 | item material or fabric   description | text | 30 |
-| cond | condition | text | 30 |
-| burnt | evidence for burning | boolean | 1 |
-| join | join with other item | boolean | 1 |
+| area | KAGC excavation area | text | 30 | Extracted from ‘name’ during cleaning with three levels. A: Area A. B: Area B. E: Area E |
+| name | trench or tomb name | text | 30 | Equivalent to ‘Trench/Tomb’ in old and some new specialist databases with minor reformatting, e.g., TRAV -> TRA05 |
+| tb.tr | trench or tomb | text | 30 | Extracted from ‘name’ during cleaning with two levels: T: tomb. TR: trench |
+|context| context number | text | 30 | Equivalent to ‘Level’ in old and some new specialist databases with minor reformatting, e.g., 1.0 -> 1 |
+| cxn | context number | text | 30 | Extracted and generated from ‘name’ and ‘context’ (infra) during cleaning, e.g., TRA01-1 |
+| mcls | material class type. : lmp:   lamp. gls: glass. num: coin. cer: non-fine ware ceramics. stn: stone. mtl:   non coin metal. amp: amphora. plst: plaster/stucco. fw: fine ware | text | 30 | |
+| number | registration number | text | 30 | Equivalent to ‘Number’ in old database with post-2017 specialist updates |
+| diag | diagnostic item type | text | 30 | Extracted from ‘Type1’ if diagnostic form is known, e.g., LRA1 |
+| Cat | catalog number | text | 30 | |
+| date1 | AD, BC, AD-BC | text | 30 | Extracted during cleaning with 3 levels: BC; BC–AD; AD |
+| date2 | concatenation of date1, date3,   and date4 | text | 30 | Generated from Date1, Date3, and Date4 during cleaning |
+| date3 | opening production date | integer | 30 | Extracted during cleaning: opening production date with BC dates expressed as a negative number |
+| date4 | closing production date | integer | 30 | Extracted during cleaning: closing production date with BC dates expressed as a negative number |
+| type1 | object type | text | 30 | |
+| type2 | object part | text | 30 | Fragment type or part, e.g., rim |
+| type3 | gross functional class | text | 30 | e.g., transport-storage |
+| type4 | method of manufacture | text | 30 | e.g., mold-made |
+| type5 | item color(s) | text | 30 | |
+| type6 | item material or fabric   description | text | 30 | |
+| cond | condition | text | 30 | e.g., weathered, pitted, abraded, etc. |
+| burnt | evidence for burning | boolean | 1 | Y or N |
+| join | join with other item | boolean | 1 | Equivalent to ‘mended’ in new specialist and old databases |
 | PL | preserved length | float | 30 |
 | PW | preserved width | float | 30 |
 | description | item description | text | variable |
 
-
+## Usage Examples
 
 # Works Cited
 Allison, P. (2008). Dealing with Legacy Data - an introduction. Internet archaeology, (24). [https://doi.org/10.11141/ia.24.8](https://doi.org/10.11141/ia.24.8)
