@@ -23,7 +23,7 @@ The second part of our strategy, the Beta phase, was designed to help us address
 
 
 ## Analysis Tools
-After establishing the relative sequence in each trench we look for  basic correlations between deposits in each area's trenches. This  process  involved  comparing the deposits and aggregating them into larger units (Depositional Units, DUs) in  terms of their color, compaction, interface properties, inclusions, and assemblage compositions. Our research goals for the stratigraphic analysis also required us to examine individual and aggregated deposits and their assemblages at different spatial resolutions.  We also need a standard way to compare, contrast,  and visualize different aspects of these deposits' assemblages,  especially their chronological distribution.  Given our goals, our approach to stratigraphic interpretation centered on establishing and analyzing deposit assemblage profiles.
+After establishing the relative sequence in each trench we look for  basic correlations between deposits in each area's trenches. This  process  involved  comparing the deposits and aggregating them into larger units (Depositional Units, DUs) in  terms of their color, compaction, interface properties, inclusions, and assemblage compositions. Our research goals for the stratigraphic analysis also required us to examine individual and aggregated deposits and their assemblages at different spatial resolutions.  We also need a standard way to compare, contrast,  and visualize different aspects of these deposits' assemblages,  especially their chronological distribution.  Given our goals, our approach to stratigraphic interpretation centered on establishing and analyzing deposit assemblage profiles. 
 
 The Context-DU class' methods manipulate several core variables from the project database to generate additional data for the profile.  These actions range from simple database and spreadsheet filtering operations to more complex ones that involve linking several queries, filters, and mathematical operations together.  
 
@@ -109,6 +109,11 @@ The table below describes the naming convention for the variables used in the pr
 | description | item description | text | variable |
 
 ## Usage Examples
+
+```Python
+b503 =df.pipe(KAGC_FUN.DU_Select, KAGC_DUS.B503, "B503").pipe(co.Context, -50)
+```
+
 
 # Works Cited
 Allison, P. (2008). Dealing with Legacy Data - an introduction. Internet archaeology, (24). [https://doi.org/10.11141/ia.24.8](https://doi.org/10.11141/ia.24.8)
