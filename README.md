@@ -111,9 +111,31 @@ The table below describes the naming convention for the variables used in the pr
 ## Usage Examples
 
 ```Python
-b503 =df.pipe(KAGC_FUN.DU_Select, KAGC_DUS.B503, "B503").pipe(co.Context, -50)
+#Context-DU Class instance
+b503 =df.pipe(KAGC_FUN.DU_Select, KAGC_DUS.B503, "B503").pipe(co.Context, res= -50)
 ```
 
+```
+b503.MCLS_TPQS()
+
+|      | DU   | name   | cxn    | mcls   | Cat   | diag                    | type1          | type2              | date1   |   date3 |   date4 |   Dspan |   MPDate |   EAAD |   EAAD-M |
+|------|------|--------|--------|--------|-------|-------------------------|----------------|--------------------|---------|---------|---------|---------|----------|--------|----------|
+|   84 | B503 | TB13   | TB13-1 | trc    | TC23  | figurine                | figurine       | horse torso        | BC      |    -300 |    -250 |      50 |   -275   |    701 |    825.5 |
+| 3074 | B503 | TB11   | TB11-2 | fw     | FW184 | african red slip form 5 | Plate          | rim                | AD      |      50 |     150 |     100 |    100   |    351 |    450.5 |
+| 1689 | B503 | TB18   | TB18-2 | num    | CN16  | Arcadius, Honorius      | coin           | intact             | AD      |     395 |     401 |       6 |    398   |      6 |    152.5 |
+| 1821 | B503 | TB14   | TB14-1 | amp    | AM63  | LRA 1                   | LRA 1          | HW                 | AD      |     401 |     450 |      49 |    425.5 |      0 |    125   |
+| 2155 | B503 | TB14   | TB14-1 | gls    |       | stemmed goblet          | stemmed goblet | base               | AD      |     401 |     600 |     199 |    500.5 |      0 |     50   |
+|   27 | B503 | TB14   | TB14-1 | jwl    | JW29  | buckle                  | buckle         | ogival with tongue | AD      |     401 |     600 |     199 |    500.5 |      0 |     50   |
+|  640 | B503 | TB18   | TB18-2 | lmp    | LP51  | Egyptian?               | lamp           | half preserved     | AD      |     401 |     700 |     299 |    550.5 |      0 |      0   |
+
+```
+
+```
+#Plotting production spans for the latest artifact types from DU B503
+KAGC_FUN.DU_MCLS_TPQ_Plt(b503, save_plot="N", out_ti=" ", fext=" ", start= -500, stop=1000)
+```
+
+![]()
 
 # Works Cited
 Allison, P. (2008). Dealing with Legacy Data - an introduction. Internet archaeology, (24). [https://doi.org/10.11141/ia.24.8](https://doi.org/10.11141/ia.24.8)
