@@ -77,7 +77,7 @@ The Python class and functions we created for the project used
 
 
 # Usage Instructions
-The table below describes the naming convention for the variables used in the project's database. To use the functions and Context-DU class for a different project, either adapt the function and class code to the new database or modify the new database's variable names. Some of the project's functions also extend the Context-DU's methods. For example, the Context-DU's MCLS_TPQS method produces a table that presents the latest opening and closing production dates for each material in the assemblage, among other data. It also serves as the preferred input for the DU_MCLS_TPQ_Plt function, which plots the production spans for the latest item for each artifact type in the assemblage. 
+The table below describes the naming convention for the variables used in the project's database. To use the functions and Context-DU class for a different project, either adapt the function and class code to the new database or modify the new database's variable names. Some of the project's functions also extend the Context-DU's methods. For example, the Context-DU's MCLS_TPQS method produces a Pandas dataframe that presents the latest opening and closing production dates for each material in the assemblage, among other data. It also serves as the preferred input for the DU_MCLS_TPQ_Plt function, which plots the production spans for the latest item for each artifact type in the assemblage. 
 
 
 | Field   Name | Field   Description | Field Data Type | Field Length | Comment |
