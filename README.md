@@ -172,6 +172,23 @@ KAGC_FUN.DU_MCLS_TPQ_Plt(b503, save_plot="N", out_ti=" ", fext=" ", start= -500,
 ```
 ![Production Span Graph](/Images/ProductionSpanGraph.png)
 
+```Python
+#Unique Forms/Types by material (mcls) in DU B503
+b503.UniqueForms()
+```
+
+```Python
+mcls
+amp                                      [UnID, Water jug, UnID-Kouriote, Dressel 43, UnID-ER, Pot stand, Agora M334, LRA 1, Sub-Koan type, 4W/LRA1, Kouriote]
+fw                                          [african red slip form 5, classical-hellenistic black glaze, eastern sigillata a form 3, hellenistic color coated]
+gls                                                                                [stemmed goblet, undiagnostic, unguentarium, windowpane, jug, bottle, bowl]
+jwl                                                                    [bead, hairpin, hairring, amulet case, earring, buckle, ring, hairring/pyxis, bracelet]
+lmp    [Vessberg 18a, Vessberg 18b, Vessberg 18b?, Egyptian?, UnID, lamp?, Vessberg 18, Vessberg 18a?, Vessberg 20?, Vessberg 13?, Vessberg 10?, Vessberg 18?]
+mtl                                                                                                                                                     [None]
+num                                                                [coin, Valens – Valentinian I, Constantine I, Arcadius, Honorius, Constantius II or Julian]
+stn                                                                                                                                                     [None]
+trc                                                                                                                                                 [figurine]
+```
 # Works Cited
 Allison, P. (2008). Dealing with Legacy Data - an introduction. Internet archaeology, (24). [https://doi.org/10.11141/ia.24.8](https://doi.org/10.11141/ia.24.8)
 
