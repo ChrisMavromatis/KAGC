@@ -281,6 +281,6 @@ Wickham, H. (2016). Data analysis. In: Ggplot2: Elegant graphics for data analys
 Wickham, H. et al. (2019). Welcome to the Tidyverse. Journal of Open Source Software, 4 (43), p.1686. [https://doi.org/10.21105/joss.01686](https://doi.org/10.21105/joss.01686)
 
 # Links
-* [Project Webpage](https://www.gla.ac.uk/schools/humanities/research/archaeologyresearch/currentresearch/kourion/)
-* [Publication](https://whitelevy.fas.harvard.edu/publications/city-and-cemetery-excavations-kourion%E2%80%99s-amathous-gate-cemetery-cyprusthe)
-* [Archaeological Data Service Archive](https://archaeologydataservice.ac.uk/data-catalogue/resource/f1bfbdb42acc61bed436886b5d941e01aae245a3062f9d7a2214de175c94d881)
+* [Project's Webpage](https://www.gla.ac.uk/schools/humanities/research/archaeologyresearch/currentresearch/kourion/)
+* [Project's Publication](https://whitelevy.fas.harvard.edu/publications/city-and-cemetery-excavations-kourion%E2%80%99s-amathous-gate-cemetery-cyprusthe)
+* [Project's Archaeological Data Service Archive](https://archaeologydataservice.ac.uk/data-catalogue/resource/f1bfbdb42acc61bed436886b5d941e01aae245a3062f9d7a2214de175c94d881)
